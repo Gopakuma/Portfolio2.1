@@ -7,8 +7,8 @@ export default function Navbar() {
         {links.map(l => <a key={l} href={`#${l.toLowerCase()}`}>{l}</a>)}
       </div>
       <div className="flex items-center gap-3 text-sm">
-        <a  href="src/data/GopakumarG.pdf"
-            download="GopakumarG.pdf"
+        <a  href="Gopakumar_G_Resume.pdf"
+            download="Gopakumar_G_Resume.pdf"
             className="text-sm border border-card-border px-4 py-2 rounded-full hover:border-accent/50 transition">Resume</a>
         <button className="bg-white text-black px-4 py-2 rounded-full">Let's Talk</button>
       </div>
